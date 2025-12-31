@@ -116,3 +116,12 @@ $ ./signals -i images/original/birdsIndia.bmp -o infrabird.bmp -g -v --contrast 
 | `-r` | `--rotate` | `<N>` | Rotates image 90° clockwise `N` times. |
 | `-R` | `--reverse` | | Reverse image horizontally. |
 | `-F` | `--flip` | | Flips image vertically. |
+
+## Linux Build instructions
+
+```bash
+$ git clone https://github.com/Jasco4/signals.git
+$ cd signals
+$ sudo make install
+$ cd .. && rm -rf signals  # (optional cleanup after install)
+```
